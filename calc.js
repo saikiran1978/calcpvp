@@ -6,10 +6,14 @@ function sub(x, y) {
 	return x - y;
 };
 	
-exports.mult = function (x, y) {
+function mult(x, y) {
 	return x * y;
 };
 	
-exports.div = function (x, y) {
+function div(x, y) {
 	return x / y;
 };
+exports.add=add;
+exports.sub=sub;
+exports.mult=mult;
+exports.div=div;

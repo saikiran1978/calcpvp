@@ -1,5 +1,17 @@
 {
     "name":"calcipvp",
-    "version":"0.1.1",
-    "main":"calc"
+    "version":"0.1.2",
+    "main":"calc",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/saikiran1978/calcpvp"
+        },
+    "keywords": [
+      "calc",
+      "calcpvp"
+        ],
+    "dependencies": {},
+    "engines": {
+    "node": "*"
+    }
 }
